@@ -1,8 +1,15 @@
 import React from 'react'
 
+
+// COMPONENTS
+import Mapa from '../../components/Maps/Mapa'
+
 const Maps = () => {
   return (
-    <div>Maps</div>
+    <div>
+      <h1>Maps</h1>
+      <Mapa />
+    </div>
   )
 }
 
