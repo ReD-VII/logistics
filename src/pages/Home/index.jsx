@@ -1,8 +1,17 @@
 import React from 'react'
+import MenuLat from '../../components/Menu/MenuLat'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+
+      <MenuLat />
+      <h1>
+        HOME
+      </h1>
+
+
+    </div>
   )
 }
 

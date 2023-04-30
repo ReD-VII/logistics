@@ -5,6 +5,7 @@ import { Link, Outlet } from 'react-router-dom'
 const Layout = () => {
   return (
     <LayoutConteiner>
+        <Outlet />
         <div>
           <nav>
             <ul>
@@ -13,7 +14,6 @@ const Layout = () => {
             </ul>
           </nav>
         </div>
-        <Outlet />
 
     </LayoutConteiner>
   )
